@@ -1,0 +1,40 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "todo server",
+    "main": "app.js",
+    "scripts": {
+        "dev": "nodemon src/app.js",
+        "start": "node src/app.js",
+        "pm2": "pm2 start npm --name 'app1','app2','app3','app4' -- run start"
+    },
+    "keywords": [
+        "nodejs",
+        "express",
+        "mysql",
+        "sequelize",
+        "reactjs",
+        "typescript",
+        "javascript",
+        "CRUD"
+    ],
+    "author": "Abdul Riyaz",
+    "license": "MIT",
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "express": "^4.18.2",
+        "mysql2": "^3.3.3",
+        "sequelize": "^6.32.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.42.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-config-prettier": "^8.8.0",
+        "eslint-plugin-import": "^2.27.5",
+        "eslint-plugin-prettier": "^4.2.1",
+        "nodemon": "^2.0.22",
+        "pm2": "^5.3.0",
+        "prettier": "^2.8.8",
+        "volleyball": "^1.5.1"
+    }
+}
